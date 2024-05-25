@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    span#burger{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+       
+    nav > ul > li {
+        display: inline-block;
+    }
+    
+   nav > ul > li > a {
+        border-bottom: none;
+        padding: 10px 10px 10px 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.162);
+    }
+
+    main{
+        width:750px;
+        display: block;
+        margin: auto;
+    }
+    
+}
