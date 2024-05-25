@@ -23,9 +23,26 @@
     }
 
     main{
-        width:750px;
+        width:600px;
         display: block;
         margin: auto;
     }
+
+    main article p{
+        line-height: 1.5em;
+    }
+
+    main article img{
+        width: 320px;
+    }
     
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        width: 800px;
+    }
+    img{
+        width: 640px;
+    }
 }

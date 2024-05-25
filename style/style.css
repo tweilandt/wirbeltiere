@@ -69,7 +69,9 @@ main{
 }
 
 article{
-    margin-top: 10px;
+    margin-top: 30px;
+    min-height: 65vh;
+
 }
 article > h2{
     padding: 10px;
@@ -77,6 +79,45 @@ article > h2{
 
 article > p{
     margin: 15px 10px;
-    line-height: 1.2em;
+    line-height: 2em;
     text-indent: 25px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+article a:hover{
+    color: rgb(14, 106, 137);
+    transition: 0.3s;
+}
+
+article img{
+    width: 80vw;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+
+footer#rodape{
+    font-size: 0.7em;
+    text-align: center;
+    background-color: rgb(74, 141, 163);
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 15px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    color: aliceblue;
+    transition: 0.3s;
 }
