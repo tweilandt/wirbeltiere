@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root{
+    --farbe1: #d9c9c3;
+    --farbe2: #876B4F;
+    --farbe4: rgba(240, 248, 255, 0.674);
+    --farbe5: rgb(113, 89, 65);
+    --farbe6: rgba(113, 89, 65, 0.342);
+}
+
+header h1, nav> ul> li> a, footer#rodape, footer a{
+    color: #d8cfcd;
+}
+
+footer a:hover{
+    color: #5C2026;
+}
