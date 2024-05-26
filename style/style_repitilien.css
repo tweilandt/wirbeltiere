@@ -1,99 +1,22 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Paytone+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Luckiest+Guy&family=Paytone+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;1,300&family=Paytone+One&display=swap');
-
 :root{
     --farbe1: rgb(186, 231, 246);
     --farbe2: rgb(74, 141, 163);
     --farbe3: rgb(10, 70, 91);
-    --farbe4: aliceblue;
     --farbe5: rgb(14, 106, 137);
     --farbe6: rgba(14, 106, 137, 0.342);
-    --font1: "Paytone One", sans-serif;
-    --font2: "Comfortaa", sans-serif;
-    --font3: font-family: "Montserrat", sans-serif;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body{
-    background-color: var(--farbe1);
-}
-
-header{
-    background-color: var(--farbe2);
-
 }
 
 header h1{
-    text-align: center;
-    padding: 12px;
-    font-size: 3.5em;
-    font-family: var(--font1);
     color: #B0D7E6;
-}
-
-nav{
-    display: none;
-}
-
-nav > ul{
-    list-style-type: none;
-}
-
-span#burger{
-    background-color:  var(--farbe3);
-    display: block;
-    text-align: center;
-    padding: 10px;
-}
-
-span#burger:hover{
-    background-color: var(--farbe4);
-    cursor: pointer;
 }
 
 nav > ul > li > a {
-    display: block;
-    background-color: var(--farbe5);
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
     color: #B0D7E6;
-    border-bottom: 1px solid var(--farbe4);
-    font-family: var(--font2);
-}
-
-  
-nav > ul > li a:hover{
-    background-color: var(--farbe6);
-    transition: 0.2s;
-}
-
-
-main{
-    width: 95vw;
-    margin: auto;
-    text-align: justify;
-    background-color: var(--farbe4);
-    border-radius: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
 }
 
 article{
-    margin-top: 30px;
-    min-height: 65vh;
-    font-family: var(--font3);
-    font-size: 1.1em;
     color: #111217;
 
 }
@@ -102,48 +25,11 @@ article > h2{
     font-family: var(--font2);
 }
 
-article > p{
-    margin: 15px 10px;
-    line-height: 2em;
-    text-indent: 25px;
+footer#rodape, footer#rodape a{
+    color: var(--farbe1);
 }
 
-article a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-article a:hover{
+footer#rodape a:hover{
     color: var(--farbe5);
-    transition: 0.3s;
 }
 
-article img{
-    width: 80vw;
-    display: block;
-    margin: auto;
-    padding: 40px;
-}
-
-footer#rodape{
-    font-size: 0.8em;
-    text-align: center;
-    background-color: var(--farbe2);
-    margin-top: 60px;
-    margin-bottom: 0px;
-    padding: 15px;
-    color: #111217;
-    
-}
-
-footer a{
-    text-decoration: none;
-    color: #111217;
-    font-weight: bolder;
-}
-
-footer a:hover{
-    color: var(--farbe4);
-    transition: 0.3s;
-}
