@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style_saeugetiere.css" media="all">
     <link rel="stylesheet" href="style/media-query.css">
 </head>
-<body>
+<body onresize="sizeChanged()">
     <header>
         <h1>Wirbeltiere</h1>
         <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
@@ -52,13 +52,5 @@
     Die Informationen in dieser Website stammen von <a href="https://escolakids.uol.com.br/ciencias/os-animais.htm#:~:text=Os%20animais%20s%C3%A3o%20seres%20vivos,a%C3%A9reos%2C%20entre%20v%C3%A1rias%20outras%20formas." target="_blank">Escola Kids</a> und <a href="https://www.educamaisbrasil.com.br/enem/biologia/reino-animal" target="_blank">Educa mais Brasil</a>. Die Texte wurden übersetzt und adaptiert von <a href="https://github.com/tweilandt">Taís Aguiar Weilandt</a>
 </footer>
 
-<script>
-    function clickMenu(){
-    if (itens.style.display == 'block'){
-        itens.style.display = 'none'
-    } else {
-        itens.style.display = 'block'
-    }
-}
-</script>
+<script src="js/script.js"></script>
 </html>
