@@ -38,6 +38,7 @@ header h1{
     padding: 12px;
     font-size: 3.5em;
     font-family: var(--font1);
+    color: #B0D7E6;
 }
 
 nav{
@@ -66,7 +67,7 @@ nav > ul > li > a {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #B0D7E6;
     border-bottom: 1px solid var(--farbe4);
     font-family: var(--font2);
 }
@@ -93,6 +94,7 @@ article{
     min-height: 65vh;
     font-family: var(--font3);
     font-size: 1.1em;
+    color: #111217;
 
 }
 article > h2{
@@ -131,12 +133,13 @@ footer#rodape{
     margin-top: 60px;
     margin-bottom: 0px;
     padding: 15px;
+    color: #111217;
     
 }
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: #111217;
     font-weight: bolder;
 }
 
