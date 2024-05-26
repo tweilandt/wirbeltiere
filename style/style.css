@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+:root{
+    --farbe1: rgb(186, 231, 246);
+    --farbe2: rgb(74, 141, 163);
+    --farbe3: rgb(10, 70, 91);
+    --farbe4: aliceblue;
+    --farbe5: rgb(14, 106, 137);
+    --farbe5: rgba(14, 106, 137, 0.342);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,11 +16,11 @@
 }
 
 html, body{
-    background-color: rgb(186, 231, 246);
+    background-color: var(--farbe1);
 }
 
 header{
-    background-color: rgb(74, 141, 163);
+    background-color: var(--farbe2);
 
 }
 
@@ -30,30 +39,30 @@ nav > ul{
 }
 
 span#burger{
-    background-color:  rgb(10, 70, 91);
+    background-color:  var(--farbe3);
     display: block;
     text-align: center;
     padding: 10px;
 }
 
 span#burger:hover{
-    background-color: aliceblue;
+    background-color: var(--farbe4);
     cursor: pointer;
 }
 
 nav > ul > li > a {
     display: block;
-    background-color: rgb(14, 106, 137);
+    background-color: var(--farbe5);
     padding: 10px;
     text-align: center;
     text-decoration: none;
     color: black;
-    border-bottom: 1px solid aliceblue;
+    border-bottom: 1px solid var(--farbe4);
 }
 
   
 nav > ul > li a:hover{
-    background-color: rgba(14, 106, 137, 0.342);
+    background-color: var(--farbe6);
     transition: 0.2s;
 }
 
@@ -62,7 +71,7 @@ main{
     width: 95vw;
     margin: auto;
     text-align: justify;
-    background-color: aliceblue;
+    background-color: var(--farbe4);
     border-radius: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -90,7 +99,7 @@ article a {
 }
 
 article a:hover{
-    color: rgb(14, 106, 137);
+    color: var(--farbe5);
     transition: 0.3s;
 }
 
@@ -118,6 +127,6 @@ footer a{
 }
 
 footer a:hover{
-    color: aliceblue;
+    color: var(--farbe4);
     transition: 0.3s;
 }
