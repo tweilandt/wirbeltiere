@@ -3,14 +3,18 @@
 :root{
     --farbe1: rgb(195, 199, 240);
     --farbe2: rgb(83, 51, 106);
-    --farbe3: rgb(10, 70, 91);
+    --farbe3: rgb(69, 42, 88);
     --farbe4: rgb(239, 234, 245);
     --farbe5: rgb(106, 89, 139);
     --farbe6: rgba(106, 89, 139, 0.342);
 }
 
-header h1{
+header h1, span#burger {
     color: var(--farbe4);
+}
+
+span#burger:hover{
+    color: var(--farbe2);
 }
 
 nav > ul > li > a {

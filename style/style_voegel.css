@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root{
-    --farbe1: rgb(162, 218, 124);
+    --farbe1: rgba(162, 218, 124, 0.627);
     --farbe2: rgb(73, 101, 55);
     --farbe3: rgb(62, 87, 47);
     --farbe4: rgb(224, 235, 224);
@@ -9,8 +9,12 @@
     --farbe6: rgb(95, 132, 72);
 }
 
-header h1, nav > ul > li > a, footer#rodape, footer a{
+header h1, nav > ul > li > a, footer#rodape, footer a, span#burger{
     color: var(--farbe4);
+}
+
+span#burger:hover{
+    color: var(--farbe2);
 }
 
 footer a:hover{

@@ -1,28 +1,25 @@
 @charset "UTF-8";
 
 :root{
+    --farbe0: color: #B0D7E6;
     --farbe1: rgb(186, 231, 246);
     --farbe2: rgb(74, 141, 163);
-    --farbe3: rgb(10, 70, 91);
+    --farbe3: rgb(64, 124, 144);
     --farbe5: rgb(14, 106, 137);
     --farbe6: rgba(14, 106, 137, 0.342);
+    --farbe7: rgb(17, 18, 23);
 }
 
-header h1{
+header h1, nav > ul > li > a, span#burger{
     color: #B0D7E6;
 }
 
-nav > ul > li > a {
-    color: #B0D7E6;
+span#burger:hover{
+    color: var(--farbe2);
 }
-
 article{
-    color: #111217;
+    color: var(--farbe7);
 
-}
-article > h2{
-    padding: 10px;
-    font-family: var(--font2);
 }
 
 footer#rodape, footer#rodape a{
@@ -30,6 +27,6 @@ footer#rodape, footer#rodape a{
 }
 
 footer#rodape a:hover{
-    color: var(--farbe5);
+    color: var(--farbe7);
 }
 

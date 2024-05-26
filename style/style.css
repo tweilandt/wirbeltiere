@@ -13,6 +13,7 @@
     --farbe4: aliceblue;
     --farbe5: rgb(14, 106, 137);
     --farbe6: rgba(14, 106, 137, 0.342);
+    --farbe7: rgb(11, 33, 53);
     --font1: "Paytone One", sans-serif;
     --font2: "Comfortaa", sans-serif;
     --font3: font-family: "Montserrat", sans-serif;
@@ -38,7 +39,7 @@ header h1{
     padding: 12px;
     font-size: 3.5em;
     font-family: var(--font1);
-    color: rgb(11, 33, 53);
+    color: var(--farbe7);
 }
 
 nav{
@@ -51,6 +52,7 @@ nav > ul{
 
 span#burger{
     background-color:  var(--farbe3);
+    color: var(--farbe4);
     display: block;
     text-align: center;
     padding: 10px;
@@ -58,6 +60,7 @@ span#burger{
 
 span#burger:hover{
     background-color: var(--farbe4);
+    color: var(--farbe7);
     cursor: pointer;
 }
 
